@@ -15,6 +15,21 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+function openPopup1() {
+    document.getElementById('popup1').style.display = 'flex';
+}
+
+function closePopup1() {
+    document.getElementById('popup1').style.display = 'none';
+}
+
+function openPopup2() {
+    document.getElementById('popup2').style.display = 'flex';
+}
+
+function closePopup2() {
+    document.getElementById('popup2').style.display = 'none';
+}
 
     function openPopup3() {
         document.getElementById('popup3').style.display = 'flex';
@@ -69,6 +84,30 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function closePopup9() {
         document.getElementById('popup9').style.display = 'none';
+    }
+
+    function openPopup10() {
+        document.getElementById('popup10').style.display = 'flex';
+    }
+
+    function closePopup10() {
+        document.getElementById('popup10').style.display = 'none';
+    }
+
+    function openPopup11() {
+        document.getElementById('popup11').style.display = 'flex';
+    }
+
+    function closePopup11() {
+        document.getElementById('popup11').style.display = 'none';
+    }
+
+    function openPopup12() {
+        document.getElementById('popup12').style.display = 'flex';
+    }
+
+    function closePopup12() {
+        document.getElementById('popup12').style.display = 'none';
     }
 
 
